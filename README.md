@@ -5,9 +5,9 @@ This project involves developing a Sudoku-solving application that takes an inco
 
 ## Features & Functionality:
 
--	Matrix Parsing: Reads a Sudoku puzzle as a NumPy array.
--	Empty Cell Detection: Identifies positions within the matrix that need to be filled.
--	Validation Checks: Ensures that each number (1-9) follows Sudoku rules:
+-	*__Matrix Parsing__*: Reads a Sudoku puzzle as a NumPy array.
+-	*__Empty Cell Detection__*: Identifies positions within the matrix that need to be filled.
+-	*__Validation Checks__*: Ensures that each number (1-9) follows Sudoku rules:
   
     -	**Row Constraint**: No duplicate numbers within a row.
 
@@ -15,6 +15,6 @@ This project involves developing a Sudoku-solving application that takes an inco
 
     -	**Grid Constraint**: No duplicate numbers within a 3x3 sub-grid.
 
--	Recursive Solving: Implements a backtracking algorithm that systematically fills the puzzle while ensuring correctness.
--	User Input (Optional): Can accept Sudoku grids from manual user input.
--	Puzzle Validation: Determines if a given puzzle is solvable and prints the completed grid or returns an "unsolvable" message.
+-	*__Recursive Solving__*: Implements a backtracking algorithm that systematically fills the puzzle while ensuring correctness.
+-	*__User Input (Optional)__*: Can accept Sudoku grids from manual user input.
+-	*__Puzzle Validation__*: Determines if a given puzzle is solvable and prints the completed grid or returns an "unsolvable" message.
